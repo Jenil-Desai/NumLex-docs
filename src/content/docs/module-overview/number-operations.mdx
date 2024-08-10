@@ -1,0 +1,70 @@
+---
+title: Number Operations (num_ops.py)
+description: Functions for various number operations in NumLex
+---
+
+import { Code, Tabs, TabItem } from "@astrojs/starlight/components";
+
+The **Number Operations** module in NumLex offers a set of functions for various operations on numbers, including finding maximum and minimum values, checking odd/even status, and more.
+
+## Functions
+
+- **`max_num(numbers)`**: Finds the maximum value from a list of numbers.
+
+  <Code code={`max_value = max_num([1, 2, 3, 4, 5])`} lang="python"></Code>
+
+- **`min_num(numbers)`**: Finds the minimum value from a list of numbers.
+
+  <Code code={`min_value = min_num([1, 2, 3, 4, 5])`} lang="python"></Code>
+
+- **`total_num(numbers, option)`**: Calculates the total of a list of numbers, with options for even and odd totals.
+
+  {" "}
+
+  <Tabs>
+    <TabItem label="Even Numbers">
+      <Code code={`total = total_num([1, 2, 3, 4, 5], 'even')`} lang="python"></Code>
+    </TabItem>
+    <TabItem label="Odd Numbers">
+      <Code code={`total = total_num([1, 2, 3, 4, 5], 'odd')`} lang="python"></Code>
+    </TabItem>
+    <TabItem label="Simple (Default)">
+      <Code code={`total = total_num([1, 2, 3, 4, 5], 'Simple')`} lang="python"></Code>
+    </TabItem>
+  </Tabs>
+
+- **`is_positive(num)`**: Checks if a number is positive.
+
+  <Code code={`check = is_positive(5)`} lang="python"></Code>
+
+- **`is_negative(num)`**: Checks if a number is negative.
+
+  <Code code={`check = is_negative(-5)`} lang="python"></Code>
+
+- **`is_odd(num)`**: Checks if a number is odd.
+
+  <Code code={`check = is_odd(5)`} lang="python"></Code>
+
+- **`is_even(num)`**: Checks if a number is even.
+
+  <Code code={`check = is_even(4)`} lang="python"></Code>
+
+- **`is_leap(year)`**: Checks if a year is a leap year.
+
+  <Code code={`check = is_leap(2024)`} lang="python"></Code>
+
+- **`digit_sum(num)`**: Calculates the sum of the digits of a number.
+
+  <Code code={`total = digit_sum(1234)`} lang="python"></Code>
+
+- **`rev_num(num)`**: Reverses the digits of a number.
+
+  <Code code={`reversed = rev_num(1234)`} lang="python"></Code>
+
+- **`is_palindrome(num)`**: Checks if a number is a palindrome.
+
+  <Code code={`palin = is_palindrome(121)`} lang="python"></Code>
+
+- **`num_len(num)`**: Calculates the length of a number.
+
+  <Code code={`length = num_len(1234)`} lang="python"></Code>

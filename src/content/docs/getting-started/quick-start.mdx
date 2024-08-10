@@ -1,0 +1,38 @@
+---
+title: Quick Start
+description: Get started quickly with NumLex
+---
+
+import { Code } from "@astrojs/starlight/components";
+
+Welcome to the **NumLex** documentation! This guide will help you quickly get started with using the NumLex Python package. Follow the steps below to install and start using NumLex in your projects.
+
+## Installation
+
+To install NumLex, use pip:
+
+<Code code="pip install NumLex" lang="bash"></Code>
+
+Once installed, you can import the modules and functions you need for your project.
+
+## Basic Usage
+
+Here’s a simple example to get you started with NumLex:
+
+<Code code={
+`from NumLex.m.geo import area_triangle
+from NumLex.m.arith import fact
+
+# Calculate the area of a triangle
+
+area = area_triangle(base=10, height=5)
+print("Area of Triangle:", area)
+
+# Calculate the factorial of a number
+
+factorial = fact(5)
+print("Factorial:", factorial)`} lang="python" ></Code>
+
+This code calculates the area of a triangle and the factorial of a number using NumLex.
+
+For more details on the available functions and their usage, check out the modules overview section.

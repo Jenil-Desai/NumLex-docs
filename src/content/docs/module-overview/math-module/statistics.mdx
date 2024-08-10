@@ -1,0 +1,38 @@
+---
+title: Statistics (stats.py)
+description: Functions for statistical analysis in NumLex
+---
+
+import { Code } from "@astrojs/starlight/components";
+
+The **Statistics** module in NumLex offers a variety of functions for statistical analysis, including calculations for means, medians, modes, var, and standard deviation.
+
+## Functions
+
+- **`ungrp_mean(data)`**: Calculates the mean for ungrouped data.
+
+  <Code code={`mean = ungrp_mean([10, 20, 30, 40, 50])`} lang="python"></Code>
+
+- **`grp_mean(data, frequencies)`**: Calculates the mean for grouped data.
+
+  <Code code={`mean = grp_mean([10, 20, 30], [2, 3, 5])`} lang="python"></Code>
+
+- **`median(data)`**: Finds the median of a dataset.
+
+  <Code code={`med = median([10, 20, 30, 40, 50])`} lang="python"></Code>
+
+- **`ungrp_mode(data)`**: Determines the mode for ungrouped data.
+
+  <Code code={`mode = ungrp_mode([10, 20, 20, 30, 40])`} lang="python"></Code>
+
+- **`raw_mode(data)`**: Determines the raw mode of data.
+
+  <Code code={`mode = raw_mode([10, 20, 20, 30, 40])`} lang="python"></Code>
+
+- **`var(data)`**: Calculates the variance of data.
+
+  <Code code={`variance = var([10, 20, 30, 40, 50])`} lang="python"></Code>
+
+- **`std_dev(data)`**: Calculates the standard deviation of data.
+
+  <Code code={`std_deviation = std_dev([10, 20, 30, 40, 50])`} lang="python"></Code>

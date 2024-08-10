@@ -1,0 +1,38 @@
+---
+title: Arithmetic (arith.py)
+description: Functions for arithmetic operations in NumLex
+---
+
+import { Code } from "@astrojs/starlight/components";
+
+The **Arithmetic** module in NumLex provides functions for performing basic arithmetic operations and more complex calculations like roots and factorials.
+
+## Functions
+
+- **`mod_add(a, b, mod)`**: Performs modular addition.
+
+  <Code code={`result = mod_add(a=7, b=5, mod=3)`} lang="python"></Code>
+
+- **`mod_sub(a, b, mod)`**: Performs modular subtraction.
+
+  <Code code={`result = mod_sub(a=7, b=5, mod=3)`} lang="python"></Code>
+
+- **`mod_mul(a, b, mod)`**: Performs modular multiplication.
+
+  <Code code={`result = mod_mul(a=7, b=5, mod=3)`} lang="python"></Code>
+
+- **`sqrt(x)`**: Calculates the square root of a number.
+
+  <Code code={`root = sqrt(16)`} lang="python"></Code>
+
+- **`curt(x)`**: Calculates the cube root of a number.
+
+  <Code code={`root = curt(27)`} lang="python"></Code>
+
+- **`nthrt(x, n)`**: Calculates the nth root of a number.
+
+  <Code code={`root = nthrt(16, 4)`} lang="python"></Code>
+
+- **`fact(n)`**: Computes the factorial of a number.
+
+  <Code code={`fact = fact(5)`} lang="python"></Code>
