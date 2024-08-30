@@ -50,6 +50,14 @@ export default defineConfig({
               label: "Number Operations Module",
               slug: "module-overview/number-operations",
             },
+            {
+              label: "Data Structure Module",
+              slug: "module-overview/data-structure",
+            },
+            {
+              label: "Temperature Conversion Module",
+              slug: "module-overview/temperature-conversion",
+            },
           ],
         },
         {

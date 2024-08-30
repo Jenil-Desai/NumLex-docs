@@ -1,0 +1,130 @@
+---
+title: Data Structure Operations (data_struct.py)
+description: Classes and functions for manipulating data structures in NumLex
+---
+
+import { Code, Tabs, TabItem } from "@astrojs/starlight/components";
+
+The **Data Structure Operations** module in NumLex provides classes and functions for creating and manipulating basic data structures like stacks and queues.
+
+## Classes and Functions
+
+### Simple Stack (`SimpleStack`)
+
+This class allows for basic stack operations like adding, removing, updating, and searching for items.
+
+- **`add(item)`**: Adds an item to the stack if there is space.
+
+  <Code code={`stack = simp_stk(5)\nstack.add(10)`} lang="python"></Code>
+
+- **`delete()`**: Removes the top item from the stack.
+
+  <Code code={`stack.delete()`} lang="python"></Code>
+
+- **`update(old_item, new_item)`**: Updates an existing item in the stack with a new value.
+
+  <Code code={`stack.update(10, 20)`} lang="python"></Code>
+
+- **`display()`**: Returns the current items in the stack.
+
+  <Code code={`items = stack.display()`} lang="python"></Code>
+
+- **`count()`**: Returns the number of items currently in the stack.
+
+  <Code code={`count = stack.count()`} lang="python"></Code>
+
+- **`search(item)`**: Searches for an item in the stack and returns `True` if found, otherwise `False`.
+
+  <Code code={`found = stack.search(20)`} lang="python"></Code>
+
+- **`sort()`**: Sorts the items in the stack.
+
+  <Code code={`stack.sort()`} lang="python"></Code>
+
+- **`isEmpty()`**: Checks if the stack is empty.
+
+  <Code code={`empty = stack.isEmpty()`} lang="python"></Code>
+
+- **`isFull()`**: Checks if the stack is full.
+
+  <Code code={`full = stack.isFull()`} lang="python"></Code>
+
+### Simple Queue (`SimpleQueue`)
+
+This class provides basic queue operations, including adding, removing, updating, and searching for items.
+
+- **`Enqueue(item)`**: Adds an item to the queue if there is space.
+
+  <Code code={`queue = simp_que(5)\nqueue.Enqueue(10)`} lang="python"></Code>
+
+- **`Dequeue()`**: Removes the front item from the queue.
+
+  <Code code={`queue.Dequeue()`} lang="python"></Code>
+
+- **`update(old_item, new_item)`**: Updates an existing item in the queue with a new value.
+
+  <Code code={`queue.update(10, 20)`} lang="python"></Code>
+
+- **`display()`**: Returns the current items in the queue.
+
+  <Code code={`items = queue.display()`} lang="python"></Code>
+
+- **`count()`**: Returns the number of items currently in the queue.
+
+  <Code code={`count = queue.count()`} lang="python"></Code>
+
+- **`peak(item)`**: Checks if a particular item is in the queue.
+
+  <Code code={`found = queue.peak(20)`} lang="python"></Code>
+
+- **`sort()`**: Sorts the items in the queue.
+
+  <Code code={`queue.sort()`} lang="python"></Code>
+
+- **`IsEmpty()`**: Checks if the queue is empty.
+
+  <Code code={`empty = queue.IsEmpty()`} lang="python"></Code>
+
+- **`IsFull()`**: Checks if the queue is full.
+
+  <Code code={`full = queue.IsFull()`} lang="python"></Code>
+
+### Circular Queue (`CircularQueue`)
+
+This class provides circular queue operations, allowing for efficient use of memory by reusing space in the queue.
+
+- **`add(item)`**: Adds an item to the circular queue if there is space.
+
+  <Code code={`circ_queue = circ_que(5)\ncirc_queue.add(10)`} lang="python"></Code>
+
+- **`delete()`**: Removes the front item from the circular queue.
+
+  <Code code={`item = circ_queue.delete()`} lang="python"></Code>
+
+- **`update(old_item, new_item)`**: Updates an existing item in the circular queue with a new value.
+
+  <Code code={`circ_queue.update(10, 20)`} lang="python"></Code>
+
+- **`display()`**: Returns the current items in the circular queue.
+
+  <Code code={`items = circ_queue.display()`} lang="python"></Code>
+
+- **`count()`**: Returns the number of items currently in the circular queue.
+
+  <Code code={`count = circ_queue.count()`} lang="python"></Code>
+
+- **`search(item)`**: Searches for an item in the circular queue and returns `True` if found, otherwise `False`.
+
+  <Code code={`found = circ_queue.search(20)`} lang="python"></Code>
+
+- **`sort()`**: Sorts the items in the circular queue.
+
+  <Code code={`circ_queue.sort()`} lang="python"></Code>
+
+- **`isEmpty()`**: Checks if the circular queue is empty.
+
+  <Code code={`empty = circ_queue.isEmpty()`} lang="python"></Code>
+
+- **`isFull()`**: Checks if the circular queue is full.
+
+  <Code code={`full = circ_queue.isFull()`} lang="python"></Code>
