@@ -53,10 +53,12 @@ export default defineConfig({
             {
               label: "Data Structure Module",
               slug: "module-overview/data-structure",
+              badge: { text: "New", variant: "success" },
             },
             {
-              label: "Temperature Conversion Module",
+              label: "Temperature Conversion",
               slug: "module-overview/temperature-conversion",
+              badge: { text: "New", variant: "success" },
             },
           ],
         },
