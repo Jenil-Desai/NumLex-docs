@@ -1,61 +1,100 @@
-# NumLex Docs
+# 🌐 NumLex Docs
 
-Welcome to the official documentation repository for the **NumLex** Python package. This repository contains the source code for the NumLex website and documentation, built using [Astro's Starlight template](https://astro.build/themes/starlight/).
+Welcome to **NumLex Docs**! This repository contains the source code for the NumLex website and documentation, built using Astro's Starlight template.
 
-## Overview
+---
 
-NumLex is a versatile Python package offering a variety of mathematical and string manipulation functions. The documentation provides comprehensive guides, module overviews, and resources to help you effectively use NumLex in your projects.
+## 📑 Table of Contents
 
-## Features
+1. [Overview](#-overview)
+2. [Technologies](#-technologies)
+3. [Packages & Libraries Used](#-packages--libraries-used)
+4. [Getting Started](#-getting-started)
+5. [Setup](#-setup)
+6. [Features](#-features)
+7. [Demo & Screenshots](#-demo--screenshots)
+8. [Acknowledgments](#-acknowledgments)
+9. [License](#-license)
 
-- **Getting Started**: Quick start guide to help you get up and running with NumLex.
-- **Modules Overview**: Detailed documentation of each module, including geometry, arithmetic, probability, statistics, string operations, and number operations.
-- **Guides**: Best practices, contribution guidelines, and versioning & changelog information.
-- **Additional Resources**: FAQ, Community guidelines, and the Security Policy.
-- **Next Steps**: Roadmap, feature requests, and issue reporting.
+---
 
-## Development
+## 🌟 Overview
 
-This documentation is built using the [Astro](https://astro.build/) framework, specifically utilizing the Starlight theme for a clean and organized layout.
+Welcome to the official documentation repository for the NumLex Python package. This repository contains the source code for the NumLex website and documentation, built using Astro's Starlight template.
 
-### Installation
+---
 
-1. **Clone the Repository**:
+## 💻 Technologies
 
+Below is the core technology used in this project.
+
+| 🌐 Web    |
+| --------- |
+| **Astro** |
+
+---
+
+## 📦 Packages / Libraries Used
+
+This project doesn’t use any additional packages or libraries.
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to set up the project in your local environment:
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/Jenil-Desai/NumLex-docs.git
-   cd NumLex-docs
+   git clone https://github.com/Jenil-Desai/numlex-docs.git
    ```
-
-2. **Install Dependencies**:
-
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-3. **Run the Development Server**:
+---
 
+## ⚙️ Setup
+
+1. Start the project:
    ```bash
    npm run dev
    ```
-
-4. **Build for Production**:
-   ```bash
-   npm run build
-   ```
-
-## Contributing
-
-Contributions are welcome! Please check the [How to Contribute](./guides/how-to-contribute) guide for more details.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
-## Community & Support
-
-For any questions or support, please refer to the [Community](./additional-resources/community) section of the documentation.
+2. Access the application at `localhost:5173` and explore the website.
 
 ---
 
-Thank you for contributing to NumLex and helping improve its documentation!
+## 🎯 Features
+
+Explore the unique features available in this application:
+
+1. **Getting Started**: Quick start guide to help you get up and running with NumLex.
+2. **Modules Overview**: Detailed documentation of each module, including geometry, arithmetic, probability, statistics, string operations, and number operations.
+3. **Guides**: Best practices, contribution guidelines, and versioning & changelog information.
+4. **Additional Resources**: FAQ, community guidelines, and the security policy.
+5. **Next Steps**: Roadmap, feature requests, and issue reporting.
+
+---
+
+## 🔗 Demo & Screenshots
+
+- [Demo](https://numlex-docs.vercel.app/)
+
+---
+
+## 🙏 Acknowledgments
+
+We’d like to thank the following resources:
+
+- **[Starlight Docs](https://docs.astro.build/)** - Documentation for Astro's Starlight template.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+---
+
+### Enjoy exploring and contributing to NumLex Docs!
